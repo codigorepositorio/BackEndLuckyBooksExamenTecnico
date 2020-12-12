@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyBooks.API", "LuckyBooks.API\LuckyBooks.API.csproj", "{1004952C-09FD-41BF-B3E2-E9D1FDF3A006}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LuckyBooks.Bussines", "LuckyBooks.Bussines", "{379E4340-2490-48D5-8DA0-1EB3B6B0D45A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LuckyBooks.Entity", "LuckyBooks.Entity", "{7967EC90-BA2D-45D3-ADDE-AFA6AEDC72EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LuckyBooks.Data", "LuckyBooks.Data", "{2CC63834-8774-46BD-B3ED-66B3CCCFB751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussines", "Bussines\Bussines.csproj", "{156001B8-7BCC-4332-BA86-87E7322ADB4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{5FE48F4F-1094-4DDF-97F3-5C3322D66E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{159B387F-97F1-4539-BA0D-0A33EA9CCF28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cross", "cross", "{1D1CA3E4-796E-415F-8B4A-560FC180B78F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerServices", "LoggerService\LoggerServices.csproj", "{2E8EED4B-526A-4A62-9BD6-B9207E65189D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1004952C-09FD-41BF-B3E2-E9D1FDF3A006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1004952C-09FD-41BF-B3E2-E9D1FDF3A006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1004952C-09FD-41BF-B3E2-E9D1FDF3A006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1004952C-09FD-41BF-B3E2-E9D1FDF3A006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156001B8-7BCC-4332-BA86-87E7322ADB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156001B8-7BCC-4332-BA86-87E7322ADB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156001B8-7BCC-4332-BA86-87E7322ADB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156001B8-7BCC-4332-BA86-87E7322ADB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE48F4F-1094-4DDF-97F3-5C3322D66E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE48F4F-1094-4DDF-97F3-5C3322D66E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE48F4F-1094-4DDF-97F3-5C3322D66E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE48F4F-1094-4DDF-97F3-5C3322D66E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159B387F-97F1-4539-BA0D-0A33EA9CCF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159B387F-97F1-4539-BA0D-0A33EA9CCF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159B387F-97F1-4539-BA0D-0A33EA9CCF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159B387F-97F1-4539-BA0D-0A33EA9CCF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8EED4B-526A-4A62-9BD6-B9207E65189D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8EED4B-526A-4A62-9BD6-B9207E65189D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8EED4B-526A-4A62-9BD6-B9207E65189D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8EED4B-526A-4A62-9BD6-B9207E65189D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{156001B8-7BCC-4332-BA86-87E7322ADB4E} = {379E4340-2490-48D5-8DA0-1EB3B6B0D45A}
+		{5FE48F4F-1094-4DDF-97F3-5C3322D66E37} = {2CC63834-8774-46BD-B3ED-66B3CCCFB751}
+		{159B387F-97F1-4539-BA0D-0A33EA9CCF28} = {7967EC90-BA2D-45D3-ADDE-AFA6AEDC72EA}
+		{2E8EED4B-526A-4A62-9BD6-B9207E65189D} = {1D1CA3E4-796E-415F-8B4A-560FC180B78F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45F1175F-7B98-404B-940C-34267DA10296}
+	EndGlobalSection
+EndGlobal
